@@ -2,7 +2,7 @@
 # For convenience methods, refer to the source https://github.com/tongueroo/codebuild/blob/master/lib/codebuild/dsl/project.rb
 
 # name("example-project-name") # recommend leaving unset and codebuild will use a conventional name
-github_url("https://github.com/user/repo")
+github_url("https://github.com/tongueroo/demo-test.git")
 linux_image("aws/codebuild/ruby:2.5.3-1.7.0")
 environment_variables(
   JETS_ENV: "test",
